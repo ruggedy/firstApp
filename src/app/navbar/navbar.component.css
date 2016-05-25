@@ -1,0 +1,21 @@
+.navbar-default {
+background-color: #04485E;
+color: white;
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #29944B;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #29944B;
+}
+
+.re-active {
+  background-color: #033F4D;
+}

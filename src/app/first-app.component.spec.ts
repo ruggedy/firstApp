@@ -14,9 +14,4 @@ describe('App: FirstApp', () => {
       inject([FirstAppAppComponent], (app: FirstAppAppComponent) => {
     expect(app).toBeTruthy();
   }));
-
-  it('should have as title \'first-app works!\'',
-      inject([FirstAppAppComponent], (app: FirstAppAppComponent) => {
-    expect(app.title).toEqual('first-app works!');
-  }));
 });
