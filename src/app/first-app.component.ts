@@ -4,14 +4,14 @@ import { HTTP_PROVIDERS } from '@angular/http';
 
 import { NavbarComponent} from './navbar/navbar.component';
 import { HomeComponent} from './home/home.component';
-import { UsersComponent} from './users/users.component';
+import { UserMainComponent} from './user-main/user-main.component';
 import { PostsComponent} from './posts/posts.component';
 
 
 
 @Routes([
     {path: '/home', component: HomeComponent},
-    {path: '/users', component: UsersComponent},
+    {path: '/users', component: UserMainComponent},
     {path: '/posts', component: PostsComponent}
 ])
 @Component({
